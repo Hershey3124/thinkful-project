@@ -11,10 +11,18 @@ body{
 h1{
 color: white;
 }
+/* -- text align -- */
 h1, h2, h3, footer, p,{
   text-align: center;
 }
-section{
+div.center{
+  text-align: center;
+}
+ul.align{
+  display: inline-block;
+  text-align: left;
+}
+ section{
 padding: 0 25%;
 margin: 20px 0;
 }
