@@ -18,12 +18,9 @@ color: white;
 h1, h2, h3, footer, p{
   text-align: center;
 }
-div.center{
-  text-align: center;
-}
-ul,ol{
-  display: inline-block;
-  text-align: left;
+div.container{
+  display: flex;
+  justify-content: center;
 }
 
 }
