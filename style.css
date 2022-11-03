@@ -1,0 +1,33 @@
+/* --- styles and font ---*/
+header{
+  background-color: black;
+  height: 100px;
+  font-size: 17px;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image:url(images/background/abstract-black.webp) ;
+}
+h1{
+color: white;
+}
+h1, h2, h3, footer, p{
+  text-align: center;
+}
+section{
+padding: 0 25%;
+margin: 20px 0;
+}
+p, h1, h2, h3, ul, ol{
+color: white;
+}
+/* -- image align center --*/
+div{
+  text-align: center;
+}
+/* -- links color --*/
+
+a:link { color: green; }
+a:visted { color: purple; }
+a:hover { color: green; }
+a:active { color: lightgreen; }
